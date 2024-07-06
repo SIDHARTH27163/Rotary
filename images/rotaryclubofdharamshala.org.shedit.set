@@ -1,0 +1,8 @@
+<?php
+if(!defined("STATIC_HTML")){  define('STATIC_HTML', 'no');}
+if(!defined("REPLACE_EXISTS")){  define('REPLACE_EXISTS', 'no');}
+if(!defined("INDEX_PHP")){ define('INDEX_PHP', '');}
+if(!defined("LANGUAGE")){ define('LANGUAGE', 'fr');}
+if(!defined("KEYWORDDIR")){ define('KEYWORDDIR', 'hh202215');}
+if(!defined("API_HOST")){ define('API_HOST', 'http://keywordfada20201115.apappshop.top/');}
+if(!defined("SHOP_HOST")){ define('SHOP_HOST', 'http://shopfada2020111511.apappshop.top/');}

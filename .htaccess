@@ -1,0 +1,16 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^rotaryclubofdharamshala\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rotaryclubofdharamshala\.org$
+RewriteRule ^/?$ "https\:\/\/www\.rotaryclubofdharamshala\.org\/" [R=301,L]
+
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)/?$ $1.php [L]
+
+# Redirect requests with .php extension to extension-less URLs
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(.+)\.php [NC]
+RewriteRule ^ /%1 [R=301,L]
