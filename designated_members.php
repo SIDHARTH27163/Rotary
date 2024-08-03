@@ -132,8 +132,10 @@ function fill_session($connection)
   
   $(document).ready(function(){
     $('#session_select').change(function(){
-        var bid = $(this).val();
-        console.log('Selected bid:', bid); // Debugging line to check the value of bid
+        var bid = $(this).val();   
+
+        /* use .php  in case of failure in server*/
+        // console.log('Selected bid:', bid); // Debugging line to check the value of bid
         $.ajax({
             url: "desig_data",
             method: "POST",
