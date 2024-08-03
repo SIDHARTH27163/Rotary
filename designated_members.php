@@ -132,20 +132,24 @@ function fill_session($connection)
   
   $(document).ready(function(){
     $('#session_select').change(function(){
-      var bid = $(this).val();
-      // alert(bid);
-      $.ajax({
-        url: "desig_data.php",   
-        method: "POST",       
-        data:"bid=" + bid,  
-        success:function(data)    
-        {
-          // console.log(data);
-          $('#show_desig').html(data);  
-        }
-      });
+        var bid = $(this).val();
+        console.log('Selected bid:', bid); // Debugging line to check the value of bid
+        $.ajax({
+            url: "desig_data",
+            method: "POST",
+            data: { bid: bid }, // Use object notation for data
+            success: function(data) {
+                // console.log('Server response:', data); // Debugging line to check the response from the server
+                $('#show_desig').html(data);
+            },
+            error: function(xhr, status, error) {
+                console.log('AJAX error:', error); // Debugging line for AJAX errors
+            }
+        });
     });
-  });
+});
+
+
 </script> 
  <!-- Loading Function Script comment-->
       <!--<script type="text/javascript">-->

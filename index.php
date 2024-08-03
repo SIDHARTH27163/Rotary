@@ -260,7 +260,7 @@ function wisher($connection)
 
 <?php
 
-include './themepart/header.php';
+include './themepart/header1.php';
 
 ?>
     
