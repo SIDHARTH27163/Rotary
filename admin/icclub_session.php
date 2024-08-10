@@ -130,7 +130,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="icclink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="icclink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
 

@@ -131,7 +131,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="dmblink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="dmblink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
 

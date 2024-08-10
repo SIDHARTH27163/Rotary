@@ -112,7 +112,7 @@ while ($row = mysqli_fetch_assoc($rs_result)) {
                     <td><a href='mchangeimage.php?key0=<?php echo  $row["mid"];?>&asid=<?php echo $row["mid"]; ?>'><img src="uploads/admin/Gallery/Media/<?php echo $row['images']; ?>"  width="100px"/></a></td>
                   
                   <td>
-                  <form action="mediacode.php" onclick="return confirm('Are you sure you wish to delete this Album ?');" method="POST"> 
+                  <form action="mediacode" onclick="return confirm('Are you sure you wish to delete this Album ?');" method="POST"> 
                       <input type="hidden" name="delete_gid" value="<?php echo $row['mid'] ?>">
                   
                   <button type ="submit" name="delete_gallery" class="btn btn-danger">Delete</button>

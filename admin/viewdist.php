@@ -74,7 +74,7 @@ $bod_name = $_POST['bod_name'];
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
-                        <form action="dawlink.php" method="post" enctype="multipart/form-data" name="upload">
+                        <form action="dawlink" method="post" enctype="multipart/form-data" name="upload">
                                        
                                         <div class="form-group">
                                             <label>Select Year</label>

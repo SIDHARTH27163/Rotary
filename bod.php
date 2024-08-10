@@ -144,7 +144,7 @@ function fill_session($connection)
       var bid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "load_data.php",   
+        url: "load_data",   
         method: "POST",       
         data:"bid=" + bid,  
         success:function(data)    

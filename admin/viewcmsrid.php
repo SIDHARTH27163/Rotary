@@ -67,7 +67,7 @@ $bod_name = $_POST['cod_name'];
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
-                        <form action="cmslink.php" method="post" enctype="multipart/form-data" name="upload">
+                        <form action="cmslink" method="post" enctype="multipart/form-data" name="upload">
                                        
                                         <div class="form-group">
                                             <label>Select Event Name or Title</label>

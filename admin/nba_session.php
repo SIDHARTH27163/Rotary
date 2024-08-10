@@ -131,13 +131,14 @@
                       <div class="card-body">
                       
                       
-                                            <form action="nblink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="nblink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php
                               if(isset($_POST['bodsubmit']))
 {
 $b_session = $_POST['b_session'];
+
 }
 ?>
                           <label>Select the Session Year</label>

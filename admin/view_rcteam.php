@@ -66,7 +66,7 @@ $bod_name = $_POST['dm_name'];
                       </div>
                       <!-- /.card-header -->
                       <div class="card-body">
-                        <form action="rtslink.php" method="post" enctype="multipart/form-data" name="upload">
+                        <form action="rtslink" method="post" enctype="multipart/form-data" name="upload">
                                        
                                         <div class="form-group">
                                             <label>Select Event Name or Title</label>

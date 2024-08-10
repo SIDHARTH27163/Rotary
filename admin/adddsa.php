@@ -76,7 +76,7 @@ while ($row = mysqli_fetch_assoc($rs_result)) {
           <div class="card">
             <div class="card-header bg-dark">
               <h3 class="card-title">Add DSA</h3>
-              <a href="viewdsa.php" class="float-right"><input type="submit" name="view_designated" value="View DSA" class="btn btn-primary"></a>
+              <a href="viewdsa" class="float-right"><input type="submit" name="view_designated" value="View DSA" class="btn btn-primary"></a>
             </div>
             <!-- /.card-header -->
 

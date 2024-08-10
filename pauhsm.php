@@ -141,7 +141,7 @@ function fill_session($connection)
       var bid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "get_phsm.php",   
+        url: "get_phsm",   
         method: "POST",       
         data:"bid=" + bid,  
         success:function(data)    

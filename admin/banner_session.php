@@ -125,7 +125,7 @@ class="btn btn-primary" name="submit">Submit </button>
                       <div class="card-body">
                       
                       
-                                            <form action="bsgallerylink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="bsgallerylink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

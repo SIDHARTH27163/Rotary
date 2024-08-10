@@ -160,7 +160,7 @@ function fill_session($connection)
       var bid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "get_title.php",   
+        url: "get_title",   
         method: "POST",       
         data:"bid=" + bid,  
         success:function(data)    
@@ -177,7 +177,7 @@ function fill_session($connection)
       var abid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "contri_data.php",   
+        url: "contri_data",   
         method: "POST",       
         data:"abid=" + abid,  
         success:function(data)    

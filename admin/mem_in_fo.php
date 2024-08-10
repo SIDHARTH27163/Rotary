@@ -137,7 +137,7 @@
                   <td><?php echo $row['memberregdate'] ?></td>
                   
                   <td>
-                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" onclick="return confirm('Are you sure you wish to delete this Album ?');" method="POST">
+                    <form action="" onclick="return confirm('Are you sure you wish to delete this Album ?');" method="POST">
                     <input type="hidden" name="delete_mem" value="<?php echo $row['Id']?>">
                     <button type="submit" name="delete" class="btn btn-danger">Delete</button>
                   </td>
