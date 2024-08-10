@@ -12,6 +12,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
+   
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- DataTables -->
   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.css">
@@ -130,7 +131,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="dmblink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="dmblink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
 

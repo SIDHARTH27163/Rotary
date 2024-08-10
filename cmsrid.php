@@ -150,13 +150,13 @@ function fill_session($connection)
       var bid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "cmsrid_data.php",   
+        url: "cmsrid_data",   
         method: "POST",       
         data:"bid=" + bid,  
         success:function(data)    
         {
           // console.log(data);
-          $('#show_desig').html(data);  
+           $('#show_desig').html(data);  
         }
       });
     });

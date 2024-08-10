@@ -123,7 +123,7 @@ function fill_session($connection)
       var bid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "dist_d_a_t_a.php",   
+        url: "dist_d_a_t_a",   
         method: "POST",       
         data:"bid=" + bid,  
         success:function(data)    

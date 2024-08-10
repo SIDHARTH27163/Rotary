@@ -13,6 +13,7 @@
 	
 	//Concatenate fetched items to the output variable with HTML option tags to display
 	// Check whether there are results or not
+	/* fix the error in previus file mostly th e ajax part*/
 	if(mysqli_num_rows($res)>0){
 		//Fetch the models into an array belongs to a particular brand name/id
 		while ($row = mysqli_fetch_assoc($res)) {

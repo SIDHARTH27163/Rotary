@@ -63,7 +63,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="agallerylink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="agallerylink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

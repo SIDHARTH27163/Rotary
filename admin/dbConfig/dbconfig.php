@@ -1,8 +1,12 @@
 <?php
 
+// $server_name = "localhost";
+// $db_username = "root";
+// $db_password = "Sidharth@123";
+// $db_name = "rcdadminpanel";
 $server_name = "localhost";
 $db_username = "root";
-$db_password = "Sidharth@123";
+$db_password = "";
 $db_name = "rcdadminpanel";
 
 $connection = mysqli_connect($server_name,$db_username,$db_password,$db_name);

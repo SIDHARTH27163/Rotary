@@ -124,7 +124,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="sgallerylink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="sgallerylink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

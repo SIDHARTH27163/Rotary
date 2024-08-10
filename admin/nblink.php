@@ -1,6 +1,6 @@
 <?php
 $ab=$_POST['b_session'];
 
-echo $ab;
+// echo $ab;
 header("Location:addnba.php?id=$ab");
 ?>

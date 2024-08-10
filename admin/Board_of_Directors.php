@@ -131,7 +131,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="bodlink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="bodlink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

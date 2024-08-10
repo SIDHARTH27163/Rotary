@@ -2,5 +2,5 @@
 $ab=$_POST['b_session'];
 
 echo $ab;
-header("Location:viewsgallery.php?id=$ab");
+header("Location:viewsgallery?id=$ab");
 ?>

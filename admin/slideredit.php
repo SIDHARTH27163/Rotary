@@ -70,7 +70,7 @@
                       {
                         ?>
                       
-                    <form action="slidercode.php" method="POST" enctype="multipart/form-data">
+                    <form action="slidercode" method="POST" enctype="multipart/form-data">
 
                    <input type="hidden" name="e_id" value="<?php echo $row['id'] ?>">
             <div class="modal-body">

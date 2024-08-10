@@ -135,7 +135,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="dodlink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="dodlink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

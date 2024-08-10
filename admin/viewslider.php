@@ -156,7 +156,7 @@
                       
                     <td><img src="uploads/admin/Gallery/slider_images/<?php echo $row['images']; ?>" height="100px"  width="100px"/></td>
                   <td>
-                    <form method="POST" action="slideredit.php">
+                    <form method="POST" action="slideredit">
                      <input type="hidden" name="e_id" value="<?php echo $row['id'] ?>">
                     <button type ="submit" name="edit_slider" class="btn btn-primary">Edit</button>
                   </form>

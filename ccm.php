@@ -148,7 +148,7 @@ function fill_session($connection)
       var bid = $(this).val();
       // alert(bid);
       $.ajax({
-        url: "cmmdata_data.php",   
+        url: "cmmdata_data",   
         method: "POST",       
         data:"bid=" + bid,  
         success:function(data)    

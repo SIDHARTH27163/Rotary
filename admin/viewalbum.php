@@ -115,7 +115,7 @@ while($row = mysqli_fetch_assoc($query_run))
                     
                   </td>
                   <td>
-                  <form action="albumcode.php" onclick="return confirm('Are you sure you wish to delete this Album ?');" method="POST"> 
+                  <form action="albumcode" onclick="return confirm('Are you sure you wish to delete this Album ?');" method="POST"> 
                       <input type="hidden" name="delete_id" value="<?php echo $row['albumid'] ?>">
                   
                   <button type ="submit" name="delete_album" class="btn btn-danger">Delete</button>

@@ -146,7 +146,7 @@ else{
                       <div class="card-body">
                       
                       
-                                            <form action="commlink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="commlink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

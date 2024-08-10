@@ -137,7 +137,7 @@ while ($row = mysqli_fetch_assoc($rs_result)) {
                       <div class="card-body">
                       
                       
-                                            <form action="cotlink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="cotlink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

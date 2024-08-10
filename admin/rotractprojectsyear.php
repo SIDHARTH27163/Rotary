@@ -125,7 +125,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="rotractprojectyearlink.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="rotractprojectyearlink" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

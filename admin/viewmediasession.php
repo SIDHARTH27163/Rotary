@@ -68,7 +68,7 @@
                       <div class="card-body">
                       
                       
-                                            <form action="medialink1.php" method="post" enctype="multipart/form-data" name="upload">
+                                            <form action="medialink1" method="post" enctype="multipart/form-data" name="upload">
                                        
                           <div class="form-group">
                               <?php

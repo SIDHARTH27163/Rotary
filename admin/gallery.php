@@ -62,7 +62,7 @@ include 'dbConfig/dbconfig.php';
             <!-- /.card-header -->
             <div class="card-body">
          
-                     		<form action="gallerycode.php" method="POST" enctype="multipart/form-data">
+                     		<form action="gallerycode" method="POST" enctype="multipart/form-data">
 				            <div class="form-group">
 				            <label> Title</label>
 				          <input type="text" name="title" class="form-control" value="" placeholder="Image Title" required>
